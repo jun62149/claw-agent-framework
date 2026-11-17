@@ -1,0 +1,13 @@
+# Python 3.12 recommended; MCP uses the 1.x ClientSession/FastMCP API.
+openai>=1,<4
+mcp>=1,<2
+fastapi
+uvicorn
+websockets
+httpx
+html2text
+ddgs
+psutil
+# Imported by main.py even when IM credentials are empty.
+lark-oapi
+qq-botpy

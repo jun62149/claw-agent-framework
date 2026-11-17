@@ -1,0 +1,55 @@
+# Credentials and local configuration
+/config.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Runtime data (keep reviewed, source-controlled skills only)
+/logs/
+*.log
+/output/*
+!/output/skills/
+/output/skills/*
+!/output/skills/csv-data-analysis/
+!/output/skills/python-project-init/
+/workspace/
+/sessions/
+/memory/
+/data_project/
+*.sqlite*
+*.db
+
+# Historical local reports and generated diagrams
+/docs/NanoClaw-结构图与代码分析.md
+/docs/CLAW-伪代码总结.md
+/docs/diagrams/
+
+# Python environments, caches and builds
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
