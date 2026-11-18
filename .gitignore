@@ -25,10 +25,9 @@ secrets*.json
 *.sqlite*
 *.db
 
-# Historical local reports and generated diagrams
-/docs/NanoClaw-结构图与代码分析.md
-/docs/CLAW-伪代码总结.md
-/docs/diagrams/
+# Local documentation (never publish)
+/doc/
+/docs/
 
 # Python environments, caches and builds
 .venv/
